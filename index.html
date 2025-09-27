@@ -1,42 +1,188 @@
+
+
+</html>
 <!DOCTYPE html>
-<html lang="fr">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="page.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		ol{
+			display: flex;
+			height: 100%;
+			justify-content: space-between;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav{
+			height: 100%;
+
+		}
+
+		li{
+			padding: 8px 5px;
+			list-style: none;
+			height: 100%;
+			width: auto;
+		}
+
+		a{
+			text-decoration: none;
+			color: white;
+		}
+
+		li:hover{
+			background-color: pink;
+			cursor: pointer;
+		}
+
+		.contact-us{
+			height: 100%;
+			padding: 8px 5px;
+			background-color: pink;
+		}
+
+		.contact-us:hover{
+			cursor: pointer;
+		}
+
+		body{
+			font-weight: 50px;
+		}
+
+		header{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: black;
+			color: white;
+		}
+
+		main{
+			background-image: url(home.jpg);
+			background-color: rgba(0, 0, 0, 0.5);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 50vh;
+			display: flex;
+			align-items: center;
+			padding: 20px;
+		}
+
+		.forme{
+			height: 60px;
+			width: 4px;
+			background-color: pink;
+			margin-left: 20px;
+		}
+
+		main > p{
+			color: #F9729e;
+			margin-left: 20px;
+			font-size: 70px;
+		}
+ #SUMMARY{
+	color:whitesmoke;
+	text-align: center;
+	background-color: #F9729e;
+	padding: 10px;
+	width: 1237px;
+	border-radius: 0px 0 0px 0;
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 50px;
+}
+
+	.container{
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+		width: 100%;
+		max-width: 1200px;
+		padding: 20px;
+	}
+
+	.case{
+		border-radius: 20px 0 20px 0;
+		flex: 1;
+		background-color: pink;
+		border: 1px;
+		padding: 20px;
+		text-align: center;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	.case h2{
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+.case p{
+	font-size: 1 em;
+color: #555;
+}
+footer{
+	background: linear-gradient(90deg,#DA70D6,#FF69B4);
+	color: white;
+	text-align: center;
+	padding: 20PX;
+	font-family: Arial,sans-serif;
+	box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+footer p{
+	margin: 0;
+	font-size: 1.2em;
+}
+
+
+	</style>
+
 </head>
-
 <body>
+	<header>
+		<nav>
+			<ol>
+				<li id="home"><a href="index.html">HOME</li>
+				<li><a href="bio.html">BIOGRAPHY</a></li>
+				<li><a href="cont.html">CONTACT</a></li>
+			</ol>
+		</nav>
+		<div class="contact-us">CALL US</div>
+	</header>
+	<section>
+		<main>
+			<div class="forme"></div>
+			<p>BIOGRAPHY</p>
+			
+		</main>
+		<div><p id="SUMMARY"><br>JMS MENU</p></div>
+ <div class="container">
+<div class="case">
+	<h2>CREPES</h2>
+<p>Nature
+<br>Nutella
+<br>Kinder
+<br>Jambon+fromage</p>
+</div>
 
+<div class="case">
+<h2>GAUFRES</h2>
+<p> Nature
+<br>Nutella
+<br>Kinder
+<br>Jambon+fromage</p></div>
 
-    <div class="ligneone">
-        <div id="zero">
-            <h3>HOME</h3>
-        </div>
-        <div id="one">
-            <h3>BIOGRAPHY</h3>
-        </div>
-        <div id="two">
-            <h3>CONTACT</h3>
-        </div>
-        <div id="three">
+<div class="case">
+	<h2>BOISSONS</h2>
+	<p>Menthe au lait
+	<br>Folere
+<br> Jus d ananas</p>
+</div></div>
 
-            <h3>CALL US</h3>
-
-        </div>
-    </div>
-    <div class="biography">
-        <h1>!BIOGRAPHY </h1>
-    </div>
-    <div id="bande">JMS MENU</div>
-    <div class="recettes">
-        <div id="CREPES"><h2>CREPES</h2> <br>Nature,<br>Chocolat,<br>miel.</div>
-        <div id="GAUFRES"><h2>GAUFRES </h2><br>Nature,<br>Chocolat,<br>crame fraiche.</div>
-        <div id="TARTES"> <h2> TARTES </h2> <br>Confetille,<br>Chocolat,<br>miel,<br>pommes.</div>
-        <div id="CUPCAKES"><h2> CUPCAKES </h2><br>Confetille,<br>Chocolat,<br>fraise,<br>coco.</div>
-    </div>
+<footer>
+	<p>&copy;copyright JMSFOOD</p>
 </body>
+	</section>
 
+</body>
 </html>

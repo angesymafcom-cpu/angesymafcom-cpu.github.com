@@ -1,0 +1,177 @@
+ol{
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	height: 100%;
+
+}
+
+li{
+	padding: 8px 5px;
+	list-style: none;
+	height: 100%;
+	width: auto;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li:hover{
+	background-color: pink;
+	cursor: pointer;
+}
+
+.contact-us{
+	height: 100%;
+	padding: 8px 5px;
+	background-color: pink;
+}
+
+.contact-us:hover{
+	cursor: pointer;
+}
+
+body{
+	font-weight: 50px;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;
+	color: white;
+}
+            	#mf3{
+            		
+            		background-size:cover;
+            		background-attachment: fixed;
+            		height:500px;
+            		width:100%;
+        		color:#ffb268;
+            		display: flex;
+            		font-family:arial sans-serif;
+            		font-weight:bold ;
+
+            	}
+            	#mf4{
+            		font-family:arial sans-serif;
+            		margin-left:50px;
+            		margin-top:00px ;
+            		padding-top: 35px;
+            	    position: absolute;
+            		border-left:#ffb268 3px solid;
+            		padding-left: 15px;
+            	}
+            	#mybox{
+	background-color:#ffa54e;
+	padding:10px;
+	width:30px;
+	margin-left: ;
+	overflow:4px;
+	border-radius:5px ;
+	/*les 3 zero sont pour les couleurs et l autre pour la transparence*/
+	box-shadow: 5px 4px 53px rgba(0, 0, 0, 1.0);
+}
+.background-image{
+	background-image: url(bio.jpg);
+	background-size:cover ;
+	background-position: center;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+#JMS{
+	font-family:arial sans-serif;
+ text-align: center; 
+    color:white;
+	background-color: #ffb260;
+	padding: 15px;
+	width: 400px;
+	border-radius: 20px 0 20px 0;		
+margin-left: 700px;
+}
+#JMS2{
+	font-family:arial sans-serif;
+ text-align: center; 
+ color:white;
+	background-color:#ff8c68;
+	padding: 12px;
+	width: 300px;
+	border-radius: 20px 0 20px 0;
+	margin-left: 800px;   		
+}
+#SUMMARY{
+	color:whitesmoke;
+	text-align: center;
+	background-color:#ff8c68;
+	padding: 10px;
+	width: 1220px;
+	border-radius: 0px 0 0px 0;
+	margin-top: 200px;
+	margin-left: 0px;
+	height: 50px;
+}
+.background-image2{
+	background-image: url(JMS.jpg);
+	background-size:cover ;
+	background-position: center;
+	height: 130vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 65px;
+	height: 200px;
+	width: 500px;
+}
+.container{
+	display: flex;
+	align-items: flex-start;
+	height: 100vh;
+}
+.section{
+  width: 45%;
+ padding: 20px;
+margin-left: 20px;
+margin-bottom: 500px}
+
+.separator-vertical{
+	width: 2px;
+	height: 100%;
+	background-color: grey;
+	margin-left: 700px;
+}
+}
+#copy{
+	color:whitesmoke;
+	text-align: center;
+	background-color:grey;
+	padding: 10px;
+	width: 1220px;
+	border-radius: 0px 0 0px 0;
+	margin-top: 10px;
+	margin-left: 0px;
+	height: 50px;
+
+	footer{
+	background: linear-gradient(90deg,#DA70D6,#FF69B4);
+	color: white;
+	text-align: center;
+	padding: 20PX;
+	font-family: Arial,sans-serif;
+	box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+footer p{
+	margin: 0;
+	font-size: 1.2em;
+}
